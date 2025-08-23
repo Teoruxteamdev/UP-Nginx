@@ -12,7 +12,7 @@ if ! [ -x "$(command -v docker compose)" ]; then
   exit 1
 fi
 
-domains=(api.soultipsdev.ru www.api.soultipsdev.ru)
+domains=(api.24updev.ru www.api.24updev.ru)
 rsa_key_size=4096
 data_path="./tls"
 email="" # Adding a valid address is strongly recommended
